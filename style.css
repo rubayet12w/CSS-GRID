@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: beige;
+}
+
+.images {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.btn {
+    padding: 18px;
+    background-color: #12bea5;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color: rgb(153, 199, 153);
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: rgb(60, 105, 202);
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 15px;
+    }
+}
